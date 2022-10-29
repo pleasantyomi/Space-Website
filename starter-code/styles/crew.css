@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
+
+@media only screen and (min-width: 320px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-image: url(assets/crew/background-crew-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+
+    .desktop_header, .container{ 
+        display: none;
+    }
+
+    .mobile_header, .mobile_container{
+        display: block;
+    }
+
+    .mobile_header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile_logo{
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    .menu{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    
+    #my_sidenav{
+        display: none;
+        padding-left: 30px;
+        padding-right: 25px;
+        padding-top: 40px;
+        height: 100%;
+        top: 0;
+        right: 0;
+        position: absolute;
+        background-color: #d0d6f928;
+        backdrop-filter: blur(20px);
+    }
+
+    .sidenav a{
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    ul{
+        margin-top: 50px;
+    }
+
+    .close{
+        float: right;
+        margin-bottom: 50px;
+    }
+
+    .mobile_container{
+        color: white;
+        text-align: center;
+    }
+
+    .primary_header1{
+        margin-top: 30px;
+    }
+
+    .h1{
+        color: #d0d6f928;
+        font-size: 1.1em;
+        font-weight: 400;
+        font-family: 'Bellefair', serif;
+    }
+
+    .h2{
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+
+    .commander1{
+        width: auto;
+        height: 350px;
+        margin-top: 40px;
+    }
+
+    .line1{
+        height: 1px;
+        width: 350px;
+        background-color: #ffffff;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        top: 0px;
+    }
+
+    .buttons1{
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+
+    .round_btn1{
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background-color: #d0d6f928;
+        margin-right: 25px;
+    }
+    
+    .sub_header1{
+        margin-bottom: 30px;
+    }
+
+    .h3{
+        display: block;
+        font-weight: 100;
+        font-size: 25px;
+        font-family: 'Bellefair', serif;
+    }
+
+    .h4{
+        display: block;
+        font-family: 'Bellefair', serif;
+        font-weight: 400;
+        font-size: 32px;
+    }
+
+    .primary_paragraph1{
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 100px;
+        padding: 15px;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-image: url(assets/crew/background-crew-desktop.jpg);
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .desktop_header, .container{
+        display: block;
+    }
+
+    .mobile_header, .mobile_container{
+        display: none;
+    }
+
+    .desktop_header{
+        padding-top: 35px;
+
+    }
+
+    .logo{
+        width: auto;
+        height: 50px;
+        position: absolute;
+        padding-left: 30px;
+        margin-top: 10px;
+    }
+
+    .line{
+        height: 1px;
+        width: 520px;
+        background-color: #d0d6f9;
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 40px;
+        border-radius: 1px;
+    }
+
+    .navs a{
+        text-decoration: none;
+        color: #ffffff;
+        margin-right: 45px;
+        font-family: 'Bellefair', serif;
+        font-weight: 400;
+        font-size: 1.1em;
+        word-spacing: 2.7;
+    }
+
+    .navs{
+        background-color: #d0d6f928;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 70px;
+        padding-right: 100px;
+        float: right;
+        backdrop-filter: blur(5px);
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+    }
+
+    .left_container{
+        padding-left: 100px;
+    }
+
+    .primary_header{
+        padding-bottom: 100px;
+    }
+
+    .h1{
+        color: #d0d6f928;
+        font-size: 1.1em;
+        font-family: 'Bellefair', serif;
+    }
+
+    .h2{
+        color: #ffffff;
+        font-size: 1.0em;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+
+    .sub_header{
+        padding-bottom: 20px;
+    }
+
+    .h3{
+        color: #ffffff;
+        font-family: 'Bellefair', serif;
+        font-weight: 100;
+        color: #d0d6f928;
+    }
+
+    .h4{
+        color: #ffffff;
+        font-family: 'Bellefair', serif;
+        font-weight: 100;
+        letter-spacing: 2.5px;
+        font-size: 40px;
+    }
+
+    .primary_paragraph{
+        font-size: 16px;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #ffffff;
+    }
+
+    .buttons{
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .round_btn{
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background-color: #d0d6f928;
+        margin-right: 25px;
+    }
+
+    .round_btn:hover{
+        cursor: pointer;
+    }
+
+    .commander{
+        width: auto;
+        height: 80vh;
+        padding-right: 100px;
+    }
+}

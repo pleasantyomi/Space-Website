@@ -1,0 +1,290 @@
+@media only screen and (max-width: 1023px) {
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-image: url(assets/home/background-home-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+
+    .desktop_header, .desktop_container{ 
+        display: none;
+    }
+
+    .mobile_menu, .mobile_container{
+        display: block;
+    }
+
+    .mobile_header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile_logo{
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    .menu{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    
+    #my_sidenav{
+        display: none;
+        padding-left: 30px;
+        padding-right: 25px;
+        padding-top: 40px;
+        height: 100%;
+        top: 0;
+        right: 0;
+        position: absolute;
+        background-color: #d0d6f928;
+        backdrop-filter: blur(10px);
+    }
+
+    .open{
+        display: block;
+    }
+
+    .sidenav a{
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    ul{
+        margin-top: 50px;
+    }
+
+    .close{
+        float: right;
+        margin-bottom: 50px;
+    }
+
+    .mobile_container{
+        color: #ffffff;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .so{
+        font-size: 20px;
+        letter-spacing: 2.7px;
+        font-family: 'Barlow Condensed', sans-serif;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .space{
+        font-size: 100px;
+        font-family: 'Bellefair', serif;
+        padding-bottom: 20px;
+    }
+
+    .lets{
+        font-size: 17px;
+        font-family: 'Barlow Condensed', sans-serif;
+        padding: 15px;
+    }
+
+    .exp{
+        text-decoration: none;
+        font-family: 'Bellefair', serif;
+        font-size: 20px;
+        color: #0b0d17;
+        background-color: #ffffff;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        margin-top: 100px;
+        margin-bottom: 70px;
+        
+    }
+}
+
+
+@media only screen and (min-width: 1024px){
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    p:hover, h1:hover{
+        cursor: default;
+    }
+
+    .mobile_header, .mobile_container{
+        display: none;
+    }
+
+    .desktop_header, .desktop_container{
+        display: block;
+    }
+
+    body{
+        background-image: url(assets/home/background-home-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 100vh
+    }
+
+  
+    .desktop_header{
+        padding-top: 35px;
+
+    }
+
+    .logo{
+        width: auto;
+        height: 50px;
+        position: absolute;
+        padding-left: 30px;
+        margin-top: 10px;
+    }
+
+    .line{
+        height: 1px;
+        width: 550px;
+        background-color: #d0d6f9;
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 40px;
+        border-radius: 1px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        margin-right: 45px;
+        font-family: 'Bellefair', serif;
+        font-weight: 400;
+        font-size: 1.1em;
+        word-spacing: 2.7;
+    }
+
+    .navs{
+        background-color: #d0d6f928;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 70px;
+        padding-right: 100px;
+        float: right;
+        backdrop-filter: blur(5px);
+    }
+
+   @keyframes slideInRight {
+       0%{
+           opacity: 0;
+           transform: translateX(-100px);
+       }
+
+       80%{
+           transform: translateX(10px);
+       }
+
+       100%{
+           opacity: 1;
+           transform:translate(0)
+       }  
+   }
+
+   @keyframes slideInLeft{
+       0%{
+           opacity: 0;
+           transform: translateX(100px);
+       }
+
+       100%{
+           opacity: 1;
+           transform: translate(0);
+       }
+   }
+
+   .desktop_container{
+       display: flex;
+       justify-content: space-between;
+       position: relative;
+       padding-top: 50px;
+   }
+
+    .story1{
+        padding-left: 90px;
+        padding-top: 200px;
+        color: white;
+        padding-right: 450px;
+    }
+
+    .lets1{
+        font-size: 1.0em;
+        font-family: 'Barlow Condensed',sans-serif;
+        animation-name: slideInRight;
+        animation-duration: 1.0s;
+        animation-timing-function: ease-out;
+    }
+
+    .space1{
+        font-size: 150px;
+        padding-bottom: 10px;
+        font-family: 'Bellefair', serif;
+        animation-name: slideInRight;
+        animation-duration: 1.0s;
+        animation-timing-function: ease-out;
+    }
+
+    .so1{
+        font-size: 1.5em;
+        padding-bottom: 10px;
+        font-family: 'Barlow Condensed',sans-serif;
+        animation-name: slideInRight;
+        animation-duration: 1.0s;
+        animation-timing-function: ease-out;
+        word-spacing: 4.75;
+    }
+
+    .exp1{
+        position: absolute;
+        margin-top: 300px;
+        margin-right: 200px;
+        font-size: 1.75em;
+        background-color: white;
+        height: 230px;
+        width: 230px;
+        display: block;
+        justify-content: center;
+        border-radius: 50%;
+        border-color: transparent;
+        border-width: 30px;
+        font-family: 'Bellefair', serif;
+        color: #0b0d17;
+        animation-name: slideInLeft;
+        animation-duration: 1.0s;
+        animation-timing-function: ease-out;
+    }
+
+    .exp1:hover{
+        cursor: pointer;
+    }
+}
+
+

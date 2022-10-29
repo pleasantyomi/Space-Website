@@ -1,0 +1,319 @@
+@media only screen and (min-width: 320px) {
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-image: url(assets/technology/background-technology-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .desktop_header{
+        display: none;
+    }
+
+    .mobile_header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile_logo{
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    .menu{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    
+    #my_sidenav{
+        display: none;
+        padding-left: 30px;
+        padding-right: 25px;
+        padding-top: 40px;
+        height: 100%;
+        top: 0;
+        right: 0;
+        position: absolute;
+        background-color: #d0d6f928;
+        backdrop-filter: blur(20px);
+    }
+
+    .sidenav a{
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    ul{
+        margin-top: 50px;
+    }
+
+    .close{
+        float: right;
+        margin-bottom: 50px;
+    }
+
+    .mobile_container{
+        text-align: center;
+        color: white;
+    }
+
+    .primary_header1{
+        margin-top: 30px;
+    }
+
+    .h1{
+        color: #d0d6f928;
+        font-size: 25px;
+        font-weight: 400;
+        font-family: 'Bellefair', serif;
+    }
+
+    .h2{
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+
+    .launch1{
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .round_btn1 a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .round_btn1{
+        background-color: transparent;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        font-size: 18px;
+        font-family: 'Bellefair', serif;
+        border-color: #d0d6f928;
+        border-width: 2px;
+        margin: 10px;
+    }
+
+    .sub_heading1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .h3{
+        font-size: 16px;
+        font-weight: 100;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+
+    .h4{
+        font-size: 35px;
+        font-weight: 400;
+        font-family: 'Bellefair', serif;
+    }
+
+    .primary_paragraph1{
+        font-size: 18px;
+        font-family: 'Barlow Condensed', sans-serif;
+        margin-bottom: 100px;
+        line-height: 35px;
+        padding: 15px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-image: url(assets/technology/background-technology-desktop.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 100vh;
+    }
+
+    .mobile_header{
+        display: none;
+    }
+
+    .mobile_header, .mobile_container{
+        display: none;
+    }
+
+    .desktop_header{
+        display: block;
+    }
+
+    .desktop_header{
+        padding-top: 35px;
+    }
+
+    .logo{
+        width: auto;
+        height: 50px;
+        position: absolute;
+        padding-left: 30px;
+        margin-top: 10px;
+    }
+
+    .line{
+        height: 1px;
+        width: 550px;
+        background-color: #d0d6f9;
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 40px;
+        border-radius: 1px;
+    }
+
+    .navs a{
+        text-decoration: none;
+        color: #ffffff;
+        margin-right: 45px;
+        font-family: 'Bellefair', serif;
+        font-weight: 400;
+        font-size: 1.1em;
+        word-spacing: 2.7;
+    }
+
+    .navs{
+        background-color: #d0d6f928;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 70px;
+        padding-right: 100px;
+        float: right;
+        backdrop-filter: blur(5px);
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+    }
+
+    .left_container{
+        margin-left: 100px;
+    }
+
+    .primary_header{
+        padding-bottom: 30px;
+    }
+
+    .h1{
+        color: #d0d6f928;
+        font-size: 1.1em;
+        font-family: 'Bellefair', serif;
+    }
+
+    .h2{
+        color: #ffffff;
+        font-size: 1.0em;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+
+    .sub_left{
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .round_btn{
+        display: block;
+        height: 70px;
+        width: 70px;
+        margin-bottom: 30px;
+        border-radius: 50%;
+        background-color: transparent;
+        border-color: #d0d6f928;
+        border-width: 2px;
+    }
+
+    .round_btn a{
+        text-decoration: none;
+        font-size: 2em;
+        color: #ffffff;
+        font-family: 'Bellefair', serif;
+    }
+
+    .round_btn a:active{
+        color: #0B0D17;
+    }
+
+    .round_btn:hover{
+        cursor: pointer;
+        border-color: #ffffff;
+        background-color: transparent;
+    }
+
+    .round_btn:active{
+        background-color: #ffffff;
+        border-color: transparent;
+    }
+
+    .round_btn::after{
+        background-color: #ffffff;
+        border-color: transparent;
+    }
+
+    .sub_heading{
+        margin-bottom: 20px;
+    }
+
+    .textbox{
+        margin-left: 50px;
+    }
+
+    .h3{
+        font-size: 14px;
+        font-weight: 100;
+        color: #ffffff;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+
+    .h4{
+        font-size: 40px;
+        color: #ffffff;
+        font-weight: 200;
+        font-family: 'Bellefair', serif;
+    }
+
+    .primary_paragraph{
+        font-size: 1em;
+        color: #ffffff;
+        line-height: 26px;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+
+    .launch{
+        width: auto;
+        height: 400px;
+        margin-top: 50px;
+    }
+}
