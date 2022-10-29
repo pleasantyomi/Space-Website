@@ -8,7 +8,7 @@
     }
 
     body{
-        background-image: url(assets/technology/background-technology-mobile.jpg);
+        background-image: url(assets/background-technology-mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top;
@@ -153,7 +153,7 @@
     }
 
     body{
-        background-image: url(assets/technology/background-technology-desktop.jpg);
+        background-image: url(assets/background-technology-desktop.jpg);
         background-repeat: no-repeat;
         background-position: top;
         height: 100vh;

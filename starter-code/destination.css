@@ -12,7 +12,7 @@
     }
 
     body{
-        background-image: url(assets/destination/background-destination-mobile.jpg);
+        background-image: url(assets/background-destination-mobile.jpg);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -178,7 +178,7 @@
     }
     
     body{
-        background-image: url(assets/destination/background-destination-desktop.jpg);
+        background-image: url(assets/background-destination-desktop.jpg);
         background-size: cover;
         background-position: top;
         height: 100vh;

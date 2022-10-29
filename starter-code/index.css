@@ -8,7 +8,7 @@
     }
 
     body{
-        background-image: url(assets/home/background-home-mobile.jpg);
+        background-image: url(assets/background-home-mobile.jpg);
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
@@ -142,7 +142,7 @@
     }
 
     body{
-        background-image: url(assets/home/background-home-desktop.jpg);
+        background-image: url(assets/background-home-desktop.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
