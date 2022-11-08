@@ -286,6 +286,13 @@
         margin-right: 30px;
     }
 
+    .destination_navs a:hover{
+        text-decoration-color: white;
+        text-decoration-style: solid;
+        text-decoration-line: underline;
+        text-decoration-thickness: 2px;
+    }
+
     .sub_header{
         font-size: 100px;
         font-family: 'Bellefair', serif;
